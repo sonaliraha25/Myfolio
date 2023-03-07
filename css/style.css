@@ -1,0 +1,329 @@
+/* common css start here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ ul li{
+    list-style-type: none;
+ }
+ h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+ }
+ /* common css end here  */
+ /* menu part start  */
+.navbar{
+    background-color:rgba(2, 145, 140, 0.723);
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 999;
+}
+.navbar-brand{
+    padding-top: 15px;
+    padding-bottom:20px ;
+}
+.nav-item{
+    padding: 25px 0;
+}
+.nav-item a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: white;
+    transition: 0.4s;
+  
+}
+.nav-item a:hover{
+    color:gainsboro;
+   border-bottom: 1px solid gainsboro;
+}
+/* menu part end here  */
+.banner{
+    background: url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: auto;
+    width: 100%;
+    
+}
+.banner_overlay{
+    padding:210px 0;
+    background: linear-gradient(to right,#0e807c24,#cfc91d50);
+    
+}
+.banner_overlay h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 25px;
+}
+.banner_overlay h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    padding: 20px 0;
+}
+.banner_overlay p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.icon p{
+    transform:rotate(-90deg);
+    font-size: 120px;
+    font-weight: 400;
+    font-family: 'Poiret One', cursive;
+}
+.icon{
+    padding:45px 0;
+}
+.banner_button p{
+    padding: 18px;
+    background: #cfc91d;
+    width: 195px;
+    margin: 0 auto;
+    color: #0b1016;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    cursor:pointer;
+   
+}
+/* banner part end here  */
+.common_part{
+    padding-top: 100px;
+    cursor: auto;
+}
+.commontxt h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+   
+}
+.commontxt h6{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#a0a3a7;
+}
+.commontxt p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#7e8287;
+    line-height: 41px;
+    padding-bottom: 75px;
+}
+.commontxt span{
+    font-size: 23px;
+    color:#7e8287;
+}
+/* about me part end here  */
+/* card part start  */
+.card_item h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding:30px 0;
+}
+.card_item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #7e8287;
+    padding-bottom: 55px;
+    margin: 0 auto;
+    width:165px;
+}
+.card_item{
+    border-right:1px solid  #7e8287; ;
+}
+.card_item i{
+    font-size: 35px;
+    color: #219e9a;
+}
+.br{
+    border-right: 0 !important;
+}
+#card{
+    margin-bottom: 100px;
+}
+/* card part end here  */
+/* service part start  */
+#service_part{
+    background-color: #f0f0e8;
+}
+.servicetxt h3{
+    padding-top: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.servicetxt p{
+    width:480px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#7e8287;
+    line-height: 41px;
+    padding-bottom: 55px;
+
+}
+.servicetxt h6{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#a0a3a7;}
+.service_card h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color:#7e8287;
+    padding-bottom: 15px;
+    padding-top: 0 !important;
+    width: 123px;
+}
+.service_card p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color:#7e8287;
+    width:165px;
+    line-height: 21px;
+    width:215px;
+}
+.lw p{
+    width:194px !important;
+   
+}
+.service_card i{
+    padding-bottom: 15px;
+   font-size: 35px;
+   color:#02918c;
+}
+.service_banner{
+    background: url(../image/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+/* service part end here  */
+#mywork p{
+    width: 706px;
+    margin: 0 auto;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    position: relative;
+}
+.picoverlay{
+   
+    position: absolute;
+    left:10%;
+   top:10%;
+   right: 10%;
+   bottom: 10%; 
+    background-color: #1f938ddf;
+    width: 80%;
+    height: 80%;
+    opacity: 0;
+}
+.picoverlay h3{
+    margin-top:60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+.picoverlay p{
+ padding-top: 15px;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 13px;
+ font-weight: 500;
+ color: #fff;
+ width: 195px;
+ margin: 0 auto;
+}
+.pic:hover .picoverlay{
+    opacity: 1;
+   visibility: visible;
+}
+/* end here  */
+#contactme p{
+    width: 706px;
+    margin: 0 auto;
+}
+#submitform{
+    background: #0b0b0b;
+    text-align: center;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background-color: #0b0b0b;
+    color:#7e8287;
+    border-bottom: 1px solid #898989;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    width: 646px;
+    font-family: 'Open Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+  }
+  .no-outline:focus {
+    outline: none;
+  }
+  .name1 input{
+    width: 700px;
+    margin:0 auto;
+  }
+button{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #cfc91d;
+    border: 1px solid #cfc91d;
+    padding: 15px 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+}
+/* submit part end here  */
+/* footer part start  */
+#footer_part{
+    background-color: #000;
+}
+.footer_txt p{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
